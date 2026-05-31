@@ -269,7 +269,7 @@ class FlandreScarlet {
         this.x = x;
         this.y = y;
         this.game = game;
-        this.maxHealth = 150;       // больше HP для эпичной битвы
+        this.maxHealth = 300;       // больше HP для эпичной битвы
         this.health = this.maxHealth;
         this.timer = 0;
         this.entered = false;
@@ -475,7 +475,7 @@ class Game {
         this.gameStarted = false;
 
         this.bgImage = new Image();
-        this.bgImage.src = 'assets/'; // новый фон
+        this.bgImage.src = 'assets/background.png'; // новый фон
         this.bgY = 0;
         this.bgSpeed = 2; // более медленный скроллинг
 
