@@ -449,10 +449,7 @@ class FlandreScarlet {
         ctx.strokeStyle = '#ffffff';
         ctx.lineWidth = 2;
         ctx.strokeRect(bx, by, bw, bh);
-        // Имя босса
-        ctx.font = 'bold 12px "Unbounded", sans-serif';
-        ctx.fillStyle = '#fff';
-        ctx.fillText('Фландр Скарлет', 150, 25);
+        
 
         ctx.restore();
     }
@@ -478,7 +475,7 @@ class Game {
         this.gameStarted = false;
 
         this.bgImage = new Image();
-        this.bgImage.src = 'assets/background_flandre.png'; // новый фон
+        this.bgImage.src = 'assets/'; // новый фон
         this.bgY = 0;
         this.bgSpeed = 2; // более медленный скроллинг
 
