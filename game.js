@@ -269,7 +269,7 @@ class FlandreScarlet {
         this.x = x;
         this.y = y;
         this.game = game;
-        this.maxHealth = 300;       // больше HP для эпичной битвы
+        this.maxHealth = 150;       // больше HP для эпичной битвы
         this.health = this.maxHealth;
         this.timer = 0;
         this.entered = false;
