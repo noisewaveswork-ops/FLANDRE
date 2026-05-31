@@ -279,8 +279,8 @@ class FlandreScarlet {
         // Спрайт (замените на свой файл)
         this.sprite = new Image();
         this.sprite.src = 'assets/flandre.png';
-        this.width = 120;
-        this.height = 120;
+        this.width = 50;
+        this.height = 50;
         this.hitboxRadius = 25;     // маленький хитбокс в стиле Touhou
 
         // Движение: плавное перемещение по синусоиде
