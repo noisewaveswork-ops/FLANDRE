@@ -477,7 +477,7 @@ class Game {
         this.bgImage = new Image();
         this.bgImage.src = 'assets/background.png'; // новый фон
         this.bgY = 0;
-        this.bgSpeed = 2; // более медленный скроллинг
+        this.bgSpeed = 6; // более медленный скроллинг
 
         this.playerImage = new Image();
         this.playerImage.src = 'assets/player.png';
